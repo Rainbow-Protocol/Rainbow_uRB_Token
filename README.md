@@ -3,5 +3,5 @@ $uRB, share of equity, receive $usdt.
 
 Rinkeby:
 
-contract:0x0d0Eb331c4D7E386ec7804A3270557bE7F6E19eD
+contract:0x85d887e2d3a698e1a2113208f17781110af3cda8
 
