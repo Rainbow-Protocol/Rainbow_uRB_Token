@@ -13,6 +13,10 @@ interface Rainbow_uRB {
      * @dev Returns the amount of tokens owned by `account`.
      */
     function balanceOf(address account) external view returns (uint256);
+    
+    
+    function rewardStartbalanceOf(address account)external view returns(uint256);
+    
 
     /**
      * @dev Moves `amount` tokens from the caller's account to `recipient`.
@@ -64,12 +68,12 @@ interface Rainbow_uRB {
      /**
      * Automatic mint
      */
-    function mintTokenAmount(uint256 addedValue,address to) external; 
+    function mintTokenAmount(uint256 addedTokenValue,uint256 rewardStartValue,address to) external; 
 
      /**
      * Automatic burn
      */
-    function burnTokenAmount(uint256 burnValue,address from) external;
+    function burnTokenAmount(address from) external;
 
 
     /**
